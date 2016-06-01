@@ -1,17 +1,14 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: Capacite seu time de TI e de Negócios na maior plataforma de e-commerce do mundo
 baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
-url: "http://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://www.treinamentomagento.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: Marcelo
+user_description: Teste
+user_title: marcelo
+email: marcelolinhares@gmail.com
+
 
 # Build settings
 markdown: kramdown
@@ -29,14 +26,14 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Início
     url: /
-  - title: Series
-    url: /series
+  - title: Treinamentos
+    url: /treinamentos
   - title: Tags
     url: /tags
-  - title: About Me
-    url: /about
+  - title: Instrutor
+    url: /instutor
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
