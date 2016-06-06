@@ -1,6 +1,6 @@
 # Site settings
 description: Capacite seu time de TI e de Negócios na maior plataforma de e-commerce do mundo
-baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
+baseurl: "/magento-treinamento/" # the subpath of your site, e.g. /blog
 url: "http://www.treinamentomagento.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
