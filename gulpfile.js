@@ -68,15 +68,15 @@ gulp.task('js', function(){
 		.pipe(gulp.dest('assets/js/'))
 });
 
-/**
- * Imagemin Task
- */
-gulp.task('imagemin', function() {
-	return gulp.src('src/img/**/*.{jpg,png,gif}')
-		.pipe(plumber())
-		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-		.pipe(gulp.dest('assets/img/'));
-});
+// /**
+//  * Imagemin Task
+//  */
+// gulp.task('imagemin', function() {
+// 	return gulp.src('src/img/**/*.{jpg,png,gif}')
+// 		.pipe(plumber())
+// 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+// 		.pipe(gulp.dest('assets/img/'));
+// });
 
 /**
  * Watch stylus files for changes & recompile
